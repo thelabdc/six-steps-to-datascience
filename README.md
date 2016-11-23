@@ -40,5 +40,16 @@ This is your jupyter working environment.  You should see a file browser on the 
 You can find out a little more about jupyter [here](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html), [here](https://www.youtube.com/watch?v=e9cSF3eVQv0), and [here](https://www.youtube.com/watch?v=JI1HWUAyJHE).  Or you can just skip to the next step and keep moving.  
 
 
+# 4. GIT
+Don’t worry, it’s already installed in your environment.  All you need to do is use it.  Go ahead and make some mistakes.  
+If you don’t already have one, create a github account [here](https://github.com/).  You can use this to store and share your code as you create it. 
+
+Go to your browser tab running jupyter, and select the “new terminal” option from the “new” menu. Enter the following at the command line in that jupyter tab: 
+
+`> git clone https://github.com/gboeing/urban-data-science.git`
+
+You can learn more about git [here](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics), [here](https://www.youtube.com/watch?v=HVsySz-h9r4), and [here](https://www.youtube.com/watch?v=ugN-IYV1NTM).
+
+
 
 
