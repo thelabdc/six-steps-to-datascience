@@ -61,6 +61,18 @@ You can now walk through every (non-WordPress) step in the tutorial. You can als
 
 `> !pip install name-of-missing-package`
 
+# 6. Stack Exchange
+If you haven’t already figured this out, most of the questions that you have about statistics, programming, and data science have already been asked and answered on [Stack Overflow](http://stackoverflow.com/).  
 
+* Search for the answer to a simple question you have (try, e.g., [“regression in python”](http://stackoverflow.com/search?q=regression+in+python)).
+* Optional: go [here] and create an account so you can ask new questions and help other people with their questions.(https://stackoverflow.com/users/signup)
+* Bonus: [Stack Exchange](https://stackexchange.com), the host of stack overflow, also has a less well known data science site: [Cross-Validated](http://stats.stackexchange.com/). 
 
+Just remember that on these sites you may interact with people who can answer your questions but may not have great social skills. I find they respond well to humility, politeness, and gratitude. 
+
+# That's It!
+
+You now have enough knowledge to be dangerous. 
+
+Have fun breaking things (safely, in isolated docker containers)!
 
