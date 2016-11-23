@@ -41,10 +41,9 @@ You can find out a little more about jupyter [here](http://jupyter-notebook.read
 
 
 # 4. GIT
-Don’t worry, it’s already installed in your environment.  All you need to do is use it.  Go ahead and make some mistakes.  
 If you don’t already have one, create a github account [here](https://github.com/).  You can use this to store and share your code as you create it. 
 
-Go to your browser tab running jupyter, and select the “new terminal” option from the “new” menu. Enter the following at the command line in that jupyter tab: 
+Happily, GIT is already installed in your jupyter docker container! Go to your browser tab running jupyter, and select the “new terminal” option from the “new” menu. Enter the following at the command line in that jupyter tab: 
 
 `> git clone https://github.com/gboeing/urban-data-science.git`
 
