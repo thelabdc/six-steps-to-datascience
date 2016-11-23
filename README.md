@@ -29,3 +29,16 @@ You just installed a “container engine” inside your computer that can host l
 * _Isolation = fewer conflicts._ No more messing with your computer’s settings or having conflicting apps. Everything is “contained” in a container.  
 * _Isolation = better security._ Because docker containers are relatively isolated, you can configure each with distinct passwords, encryption, secure connections to private github accounts, etc. 
 * _Scalable._ You can -- when you are a bit more advanced -- do the same thing on a much more powerful computer (or cluster of computers) in the cloud. 
+
+# 3. Jupyter
+AFTER docker has successfully downloaded and extracted the jupyter image, open a browser and type this into the address bar: 
+
+[http://0.0.0.0:8888](http://0.0.0.0:8888)
+
+This is your jupyter working environment.  You should see a file browser on the left and a menu for “new” tabs on the right. You can create new notebooks that run on a “kernel” of Python (version 2.7 or 3.5), R, or julia.  You can also mix and match. 
+
+You can find out a little more about jupyter [here](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Notebook%20Basics.html), [here](https://www.youtube.com/watch?v=e9cSF3eVQv0), and [here](https://www.youtube.com/watch?v=JI1HWUAyJHE).  Or you can just skip to the next step and keep moving.  
+
+
+
+
