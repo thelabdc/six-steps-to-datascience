@@ -23,12 +23,13 @@ Now that you have docker installed, go to the command prompt (here are instructi
 
 While you wait for docker to do its thing, you can read more about this jupyter “docker stack” [here](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook).  (Or, if you want to really impress nerds with your command line mastery, you can learn about [vim](http://www.labnol.org/internet/learning-vim-for-beginners/28820/), [grep](https://quickleft.com/blog/command-line-tutorials-finding-grepping/), [sed and awk](https://quickleft.com/blog/command-line-tutorials-sed-awk/).)
 
-# Not a Step: What is going on here? 
+# What is going on here? 
 You just installed a “container engine” inside your computer that can host lots of different types of “contained” computer images.  This is great because:
 * _Science!_ Everything you do is now [fully reproducible](https://arxiv.org/pdf/1410.0846.pdf) on any computer that runs an open source container engine. No more “which version of which software on which platform?” 
 * _Isolation = fewer conflicts._ No more messing with your computer’s settings or having conflicting apps. Everything is “contained” in a container.  
 * _Isolation = better security._ Because docker containers are relatively isolated, you can configure each with distinct passwords, encryption, secure connections to private github accounts, etc. 
 * _Scalable._ You can -- when you are a bit more advanced -- do the same thing on a much more powerful computer (or cluster of computers) in the cloud. 
+A cautionary note: every image you store on your computer takes up disk space, and every image you run occupies memory and taxes your processor, so: (1) don't download more images than you need, and (2) be sure to shut down images that you are not using. 
 
 # 3. Jupyter
 AFTER docker has successfully downloaded and extracted the jupyter image, open a browser and type this into the address bar: 
