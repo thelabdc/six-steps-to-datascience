@@ -1,5 +1,5 @@
 # Six Steps to Data Science
-A quick set of steps to getting up and running with jupyter notebooks on your computer
+A quick set of steps to getting up and running with jupyter notebooks on your computer. 
 
 
 # 1. Docker
