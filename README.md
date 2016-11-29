@@ -57,7 +57,7 @@ In the file browser on the left:
 * Open the “intro-to-python.ipynb” file
 * (It’s a great tutorial, but personally I’d skip the wordpress sections.)
 
-You can now walk through every (non-WordPress) step in the tutorial. You can also play around in the environment, create new notebooks, and test things about for yourself.  If, at any point, you need to load a missing package, just add the following to your script: 
+You can now walk through every (non-WordPress) step in the tutorial. You can also play around in the environment, create new notebooks, and test things about for yourself.  If, at any point, you need to load a missing python package, just add the following to your script: 
 
 `> !pip install name-of-missing-package`
 
