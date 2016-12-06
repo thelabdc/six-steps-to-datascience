@@ -83,6 +83,6 @@ Have fun breaking things (safely, in isolated docker containers)!
 
 [git - the simple guide](http://git.huit.harvard.edu/guide/) 
 
-[Open Data Science Master](http://datasciencemasters.org/)
+[Open Data Science Masters](http://datasciencemasters.org/)
 
 [Docker Resources for R Users](https://github.com/rocker-org/rocker)
