@@ -78,3 +78,7 @@ You now have enough knowledge to be dangerous.
 
 Have fun breaking things (safely, in isolated docker containers)!
 
+
+# Additional Resources
+[Git - the simple guide](http://git.huit.harvard.edu/guide/)
+[Open Data Science Master](http://datasciencemasters.org/)
