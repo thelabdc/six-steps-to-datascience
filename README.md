@@ -29,6 +29,7 @@ You just installed a “container engine” inside your computer that can host l
 * _Isolation = fewer conflicts._ No more messing with your computer’s settings or having conflicting apps. Everything is “contained” in a container.  
 * _Isolation = better security._ Because docker containers are relatively isolated, you can configure each with distinct passwords, encryption, secure connections to private github accounts, etc. 
 * _Scalable._ You can -- when you are a bit more advanced -- do the same thing on a much more powerful computer (or cluster of computers) in the cloud. 
+
 A cautionary note: every image you store on your computer takes up disk space, and every image you run occupies memory and taxes your processor, so: (1) don't download more images than you need, and (2) be sure to shut down images that you are not using. 
 
 # 3. Jupyter
