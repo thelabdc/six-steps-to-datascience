@@ -81,7 +81,7 @@ Have fun breaking things (safely, in isolated docker containers)!
 
 # Additional Resources
 
-[Git - the simple guide](http://git.huit.harvard.edu/guide/) 
+[git - the simple guide](http://git.huit.harvard.edu/guide/) 
 
 [Open Data Science Master](http://datasciencemasters.org/)
 
