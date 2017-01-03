@@ -47,7 +47,7 @@ If you don’t already have one, create a github account [here](https://github.c
 
 Happily, GIT is already installed in your jupyter docker container! Go to your browser tab running jupyter, and select the “new terminal” option from the “new” menu. To download Geoff Boeing's great set of tutorial notebooks, enter the following at the command line in that jupyter tab: 
 
-`> git clone https://github.com/gboeing/urban-data-science.git`
+`> git clone https://github.com/donnemartin/data-science-ipython-notebooks.git`
 
 You can learn more about git [here](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics), [here](https://www.youtube.com/watch?v=HVsySz-h9r4), and [here](https://www.youtube.com/watch?v=ugN-IYV1NTM).
 
