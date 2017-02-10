@@ -53,13 +53,7 @@ You can learn more about git [here](https://git-scm.com/book/en/v2/Getting-Start
 
 # 5. Jupyter Notebooks
 
-In the file browser on the left: 
-* Open the “urban-data-science” folder
-* Open the “01-intro-to-python” folder
-* Open the “intro-to-python.ipynb” file
-* (It’s a great tutorial, but personally I’d skip the wordpress sections.)
-
-You can now walk through every (non-WordPress) step in the tutorial. You can also play around in the environment, create new notebooks, and test things about for yourself.  If, at any point, you need to load a missing python package, just add the following to your script: 
+If, at any point, you need to load a missing python package, just add the following to your script: 
 
 `> !pip install name-of-missing-package`
 
