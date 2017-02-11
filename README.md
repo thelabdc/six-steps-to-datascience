@@ -35,7 +35,7 @@ A cautionary note: every image you store on your computer takes up disk space, a
 # 3. Jupyter
 AFTER docker has successfully downloaded and extracted the jupyter image, open a browser and type this into the address bar: 
 
-[http://0.0.0.0:8888](http://0.0.0.0:8888)
+[http://localhost:8888](http://localhost:8888)
 
 This is your jupyter working environment.  You should see a file browser on the left and a menu for “new” tabs on the right. You can create new notebooks that run on a “kernel” of Python (version 2.7 or 3.5), R, or julia.  You can also mix and match. 
 
