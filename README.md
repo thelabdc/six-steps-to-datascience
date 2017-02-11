@@ -17,7 +17,7 @@ Now that you have docker installed, go to the command prompt (here are instructi
 `> mkdir jupyternotebooks`    
 (This will create a new directory for your work. Alternatively, you could just use your documents folder, or any folder in which you would like to store code and data.)
 
-`> docker run -v /jupyternotebooks:/home/jovyan/work -d -p 8888:8888 jupyter/datascience-notebook`    
+`> docker run -v /jupyternotebooks:/home/jovyan/work -d -p 8888:8888 donaldbraman/jupyterlab`    
 (This will install jupyter, link its folder to your working directory, and make its http port accessible to your browser.)
 
 
@@ -30,7 +30,9 @@ You just installed a “container engine” inside your computer that can host l
 * _Isolation = better security._ Because docker containers are relatively isolated, you can configure each with distinct passwords, encryption, secure connections to private github accounts, etc. 
 * _Scalable._ You can -- when you are a bit more advanced -- do the same thing on a much more powerful computer (or cluster of computers) in the cloud. 
 
-A cautionary note: every image you store on your computer takes up disk space, and every image you run occupies memory and taxes your processor, so: (1) don't download more images than you need, and (2) be sure to shut down images that you are not using. 
+A cautionary note: every image you store on your computer takes up disk space, and every image you run occupies memory and taxes your processor, so: (1) don't download more images than you need, and (2) be sure to shut down images that you are not using. If you ever realize you have no room on your computer and you absolutely must get rid of all those docker containers, you can wipe the slate clean with one line: 
+
+`> docker rm -f $(docker ps -a -q)`
 
 # 3. Jupyter
 AFTER docker has successfully downloaded and extracted the jupyter image, open a browser and type this into the address bar: 
