@@ -17,8 +17,8 @@ Now that you have docker installed, go to the command prompt (here are instructi
 `> mkdir jupyternotebooks`    
 (This will create a new directory for your work. Alternatively, you could just use your documents folder, or any folder in which you would like to store code and data.)
 
-`> docker run -it --rm -p 8888:8888 -v /jupyternotebooks:/home/jovyan/work donaldbraman/jupyterlab`    
-(This will install jupyter, link its folder to your working directory, and make its http port accessible to your browser.)
+`> docker run -it --rm -p 8888:8888 -v c:/Users/your_user_directory/jupyternotebooks:/home/jovyan/work donaldbraman/jupyterlab`    
+Where "your_user_directory" is something like "katherine.johnson".  This will install jupyter, link its folder to your working directory, and make its http port accessible to your browser.)
 
 
 While you wait for docker to do its thing, you can read more about this jupyter “docker stack” [here](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook).  (Or, if you want to really impress nerds with your command line mastery, you can learn about [vim](http://www.labnol.org/internet/learning-vim-for-beginners/28820/), [grep](https://quickleft.com/blog/command-line-tutorials-finding-grepping/), [sed and awk](https://quickleft.com/blog/command-line-tutorials-sed-awk/).)
