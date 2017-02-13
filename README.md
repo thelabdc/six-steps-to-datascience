@@ -17,7 +17,7 @@ Now that you have docker installed, go to the command prompt (here are instructi
 `> mkdir jupyternotebooks`    
 (This will create a new directory for your work. Alternatively, you could just use your documents folder, or any folder in which you would like to store code and data.)
 
-`> docker run -it --rm -p 8888:8888 -v c:/Users/your_user_directory/jupyternotebooks:/home/jovyan/work donaldbraman/jupyterlab`    
+`> docker run -it --rm -p 8888:8888 -v c:/Users/your_user_directory/jupyternotebooks:/home/jovyan/work thelabdc/jupyterlab`    
 Where "your_user_directory" is something like "katherine.johnson".  This will install jupyter, link its folder to your working directory, and make its http port accessible to your browser.)
 
 
