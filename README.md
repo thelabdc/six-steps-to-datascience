@@ -32,7 +32,7 @@ You just installed a “container engine” inside your computer that can host l
 
 A cautionary note: every image you store on your computer takes up disk space, and every image you run occupies memory and taxes your processor, so: (1) don't download more images than you need, and (2) be sure to shut down images that you are not using. If you ever realize you have no room on your computer and you absolutely must get rid of all those docker containers, you can wipe the slate clean with one line: 
 
-`> docker rmi -f $(docker ps -a -q)`
+`> docker rm -f $(docker images -a -q)`
 
 # 3. Jupyter
 AFTER docker has successfully downloaded and extracted the jupyter image, open a browser and type this into the address bar: 
